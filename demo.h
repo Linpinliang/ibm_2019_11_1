@@ -32,7 +32,6 @@ void demo1() {
 	number_of_threads = 24;
 	max_step = 3001;
 
-
 	flow_past_a_circular_cylinder flow1 = flow_past_a_circular_cylinder(Grid_X, Grid_Y,
 		center_x, center_y, r, number_of_node,
 		Re, L, u, number_of_threads, max_step ,NF);
@@ -122,7 +121,7 @@ void demo1() {
 
 
 
-	//Êä³ö
+	//ï¿½ï¿½ï¿½
 	//flow1.Output_mluti_test();
 
 
